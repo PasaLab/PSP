@@ -1,6 +1,6 @@
-### PSP: Progressive Space Pruning for Efficient Graph Neural Architecture Search
+## PSP: Progressive Space Pruning for Efficient Graph Neural Architecture Search
 
-#### Requirements
+### Requirements
 
 Ensure that python version >= 3.6, pytorch version >= 1.4.0 . Then run:
 
@@ -10,26 +10,19 @@ pip install -r requirements.txt
 
 + Notes: This requirements file include torch-geometric == 1.6.3 (Two key componets)
 
-#### Datasets
+### Datasets
 
-#### Architecture Search
++ <!--TODO-->
 
-To run the search process, please refer to `offline/psp_nas/run_pspnas_offline.sh`for PSP-NAS. 
+### Search Architectures
 
-For example, search a 2 nodes 2cells GNN model on Cora dataset with standard split, please run:
+To execute the PSP_NAS search process, please refer to psp_nas/README.md [here](https://github.com/PasaLab/PSP/tree/master/psp_nas).
 
-```
-cd offline/psp_nas
-# parameters explanation respectively: dataset_name, is_use_early_stop(default 0 :not use), split_type
-sh run_pspnas_offline.sh Cora 0 standard
-```
+### Evaluate Architectures
 
-To search the GNN model on Cora dataset with full_supervised split, please run:
+To evaluate the architectures search by PSP_NAS, please refer to evaluate/README.md [here](https://github.com/PasaLab/PSP/tree/master/evaluate).
 
-```
-cd offline/psp_nas
-sh run_pspnas_offline.sh Cora 0 full_supervised
-```
+### Results
 
-And notes that, there is only full_supervised split to Chameleon, Cornell, Texas and Wisconsin.
+<!--TODO-->
 
