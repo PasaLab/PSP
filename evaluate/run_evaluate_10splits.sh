@@ -9,9 +9,6 @@ fi
 arg=$1
 # dataset_dir="/home/zhuruancheng/wwj_space/AutoGNN/public/$arg"
 split_type=$2
-is_use_early_stop=$3
-NUM_CELLS=$4
-NUM_NODES=$5
 
 # split_ids="1 2 3 4 5 6 7 8 9" 
 split_ids="0" 
@@ -24,7 +21,7 @@ for SPLIT_ID in `echo ${split_ids}`; do
     mkdir -p $train_info_dir
     fi
     log_file="$log_folder/$arg-${SPLIT_ID}-$cur_time.log"
-    python_command="python evaluate.py --dataset $arg --split_id ${SPLIT_ID} --use_early_stop $is_use_early_stop --num_cells ${NUM_CELLS} --num_nodes ${NUM_NODES} --logger_path $train_info_dir 2>&1"
+    python_command="python evaluate.py --dataset $arg --split_id ${SPLIT_ID} --logger_path $train_info_dir 2>&1"
     log_command="tee -i $log_file"
     echo "Current time: $cur_time"
     echo "Run command: $python_command"

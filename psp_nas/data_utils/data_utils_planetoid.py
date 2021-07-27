@@ -7,7 +7,6 @@ import numpy as np
 import torch_geometric.utils as gtils
 from sklearn.model_selection import train_test_split
 from torch_geometric.data import Data
-import copy
 from utils import get_logger
 
 from feat_engine import *
@@ -16,7 +15,7 @@ logger = get_logger()
 
 FEAT_ENGINE = [
     svd_feature, edge_weights_feature, normalize_feature,
-    degree_bins_feature, prepredict_feature, lpa_feature
+    degree_bins_feature# , prepredict_feature, lpa_feature
 ]
 
 # FEAT_ENGINE = [

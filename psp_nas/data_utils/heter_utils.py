@@ -27,7 +27,7 @@ logger = get_logger()
 FEAT_ENGINE = [
     svd_feature,
     edge_weights_feature, normalize_feature, degree_bins_feature
-    ,prepredict_feature, lpa_feature
+    # ,prepredict_feature, lpa_feature
 ]
 
 def preprocess_features(features):

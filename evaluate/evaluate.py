@@ -29,6 +29,8 @@ cudnn.enabled = True
 cudnn.benchmark = False
 cudnn.deterministic = True
 
+sys.path.append("../psp_nas/")
+
 from constant import *
 from micro_space.micro_model_manager import MicroModelManager
 from utils import get_logger

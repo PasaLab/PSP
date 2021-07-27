@@ -9,8 +9,6 @@ from torch.nn import Module
 from torch_geometric.nn.conv import *
 from torch.nn import Sequential, ReLU, Linear
 
-from utils import get_logger
-
 from macro_space.base_layer import GeoLayer
 from geniepath import GeniePathLayer
 from arma import ARMAConv_

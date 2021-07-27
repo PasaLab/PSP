@@ -17,11 +17,7 @@ class MacroSearchSpace(object):
                 {"name": "learning_rate", "value": [1e-2, 1e-3, 1e-4, 5e-3, 5e-4]}, # 5
                 {"name": "dropout", "value": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]}, # 10
                 {"name": "weight_decay", "value": [0, 1e-3, 1e-4, 1e-5, 5e-5, 5e-4]}, # 6
-
-                # {"name": "learning_rate", "value": [5e-3]}, # 5
-                # {"name": "dropout", "value": [0.6]}, # 10
-                # {"name": "weight_decay", "value": [5e-4]}, # 6
-
+                
                 {"name": "feature_engine", "value": FEATURE_ENGINE_LIST} # 7
             ]
 

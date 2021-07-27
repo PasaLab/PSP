@@ -8,7 +8,6 @@ fi
 
 arg=$1
 cur_time="`date +%Y-%m-%d-%H-%M-%S`"
-# dataset_dir="/home/zhuruancheng/wwj_space/AutoGNN/public/$arg"
 train_info_dir="$train_his_folder/$arg-$cur_time"
 SPLIT_TYPE=$2
 
