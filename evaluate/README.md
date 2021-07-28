@@ -4,7 +4,7 @@
 
 For Cora with standard split, architecture cell searched by PSP_NAS together with its hyperparameters, e.g. `[1, 'cos', 'tanh', 2, 'appnp', 'elu', 'add'], lr=5e-4, dropout=0.8, weight_decay_gnn=1e-3, weight_decay_fc=5e-3, hidden_num=512`, and the corressponding cell visualization as follows:
 
-![Cora_standard](/Users/wwj/workspace/code_public/PSP/figures/Cora_standard.png)
+![Cora_standard](https://github.com/PasaLab/PSP/blob/master/figures/Cora_standard.png)
 
 ### Run Script
 
@@ -14,7 +14,7 @@ To evaluate architectures searched by PSP_NAS or by their own, you can run the s
 
 To evaluate the best architecture searched by PSP_NAS  as well as its hyperparamaters on Cora with standard split, please run: 
 
-```python
+```
 bash run_evaluate_single_model.sh Cora standard
 ```
 
@@ -22,7 +22,7 @@ bash run_evaluate_single_model.sh Cora standard
 
 To evaluate the best architecture searched by PSP_NAS  as well as its hyperparamaters on Chameleon with full_supervised in 10 splits, please run: 
 
-```python
+```
 bash run_evaluate_10splits.sh chameleon full_supervised
 ```
 
