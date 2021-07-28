@@ -14,7 +14,7 @@ To search a GNN model, you can run the script `run_pspnas.sh`, the parameters of
 
 To search the best architecture as well as its hyperparamaters on Cora with standard split, please run: 
 
-```python
+```
 bash run_pspnas.sh Cora 0 standard
 ```
 
@@ -22,7 +22,7 @@ bash run_pspnas.sh Cora 0 standard
 
 To search the best architecture as well as its hyperparamaters on chameleon with full_supervised split, please run: 
 
-```python
+```
 bash run_pspnas.sh chameleon 0 full_supervised
 ```
 
