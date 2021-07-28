@@ -14,7 +14,7 @@ Ensure that python version >= 3.6, pytorch version >= 1.4.0 . Then run:
 pip install -r requirements.txt
 ```
 
-+ **Notes:** This requirements file include torch-geometric == 1.6.3 (the key componet)
++ **Notes:** This requirements file include torch_geometric == 1.6.3 (the key componet)
 
 ### Datasets
 
