@@ -14,7 +14,7 @@ To evaluate architectures searched by PSP_NAS or by their own, you can run the s
 
 To evaluate the best architecture searched by PSP_NAS  as well as its hyperparamaters on Cora with standard split, please run: 
 
-```python
+```
 bash run_evaluate_single_model.sh Cora standard
 ```
 
@@ -22,7 +22,7 @@ bash run_evaluate_single_model.sh Cora standard
 
 To evaluate the best architecture searched by PSP_NAS  as well as its hyperparamaters on Chameleon with full_supervised in 10 splits, please run: 
 
-```python
+```
 bash run_evaluate_10splits.sh chameleon full_supervised
 ```
 
