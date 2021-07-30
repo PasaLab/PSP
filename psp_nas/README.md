@@ -2,7 +2,7 @@
 
 To search a GNN model, you can run the script `run_pspnas.sh`, the parameters of which is listed in order:
 
-+ **dataset** ( Cora / Citeseer / Pubmed / chameleon / cornell / texas / Wisconsin )
++ **dataset** ( Cora / Citeseer / Pubmed / chameleon / cornell / texas / wisconsin )
 
 + **use_early_stop** (0: use;  1: not use )
 
